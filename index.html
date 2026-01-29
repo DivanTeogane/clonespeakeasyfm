@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Radio Station</title>
+    <style>
+        /* Делаем черный фон и центрируем плеер */
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #121212; /* Темный фон */
+            font-family: sans-serif;
+        }
+        /* Контейнер для плеера */
+        .player-container {
+            width: 100%;
+            max-width: 500px;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="player-container">
+        <!-- Твой код плеера -->
+        <div data-type="newStreamPlayer" 
+             data-publicToken="4f9df394-8cb9-412b-b22f-e341db2c76e0" 
+             data-theme="light" 
+             data-color="e81e4d" 
+             data-channelId="" 
+             data-rendered="false" 
+             class="cstrEmbed">
+            <a href="https://www.caster.fm">Shoutcast Hosting</a>
+        </div>
+        <script src="https://cdn.cloud.caster.fm"></script>
+    </div>
+
+</body>
+</html>
+
+
